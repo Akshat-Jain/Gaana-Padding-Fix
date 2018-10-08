@@ -1,0 +1,20 @@
+{
+  "name": "Gaana-Padding-Fix",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "A chrome extension to fix padding issues on Gaana.com on Mojave (on particular Chrome versions)",
+  "icons": {
+    
+  },
+  "default_locale": "en",
+  "permissions": [
+    "tabs",
+    "https://gaana.com/*"
+  ],
+  "content_scripts": [
+  {
+    "matches": ["https://*.gaana.com/*"],
+    "js": ["js/gaana.js"]
+  }
+  ]
+}
