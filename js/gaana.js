@@ -10,8 +10,7 @@ if(y!=undefined){
 
 z = document.getElementById("searchTop");
 z.onclick = function(){
-	console.log("testing");
-	
+
 	x = document.getElementById("main_middle_content");
 	if(x!=undefined){
 		x.style.left = '60px';
